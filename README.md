@@ -18,14 +18,12 @@ Ejemplos listos para correr de la [API de Tupana](https://docs.tupana.ai): factu
 2. Conecta la empresa emisora con sus credenciales del SII (Tupana Connect).
 3. Exporta la key: `export TUPANA_API_KEY="..."`.
 
-Los ejemplos instalan los SDKs directo desde GitHub mientras se publican en npm y PyPI:
+Los SDKs oficiales están publicados en npm y PyPI:
 
 ```bash
-npm install github:tupana-ai/tupana-node
-pip install "git+https://github.com/tupana-ai/tupana-python"
+npm install tupana
+pip install tupana
 ```
-
-Cuando estén publicados, cambia a `npm install @tupana-ai/sdk` y `pip install tupana`.
 
 ## Buenas prácticas que verás en todos
 

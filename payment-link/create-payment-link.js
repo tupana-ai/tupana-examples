@@ -5,7 +5,7 @@
 //   node create-payment-link.js --rut 11111111-1 --name "Juan Soto" --email juan@ejemplo.com \
 //     --description "Sesión de psicoterapia" --amount 50000 --ref booking_abc123 --watch
 import { parseArgs } from "node:util";
-import Tupana from "@tupana-ai/sdk";
+import Tupana from "tupana";
 import { createPaymentLink, waitForPayment } from "./payment-link.js";
 
 const { values: v } = parseArgs({

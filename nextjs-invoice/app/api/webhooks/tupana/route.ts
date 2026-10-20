@@ -1,4 +1,4 @@
-import { constructWebhookEvent, type DocumentEventData, WebhookVerificationError } from "@tupana-ai/sdk";
+import { constructWebhookEvent, type DocumentEventData, WebhookVerificationError } from "tupana";
 import { NextResponse } from "next/server";
 
 export const runtime = "nodejs";

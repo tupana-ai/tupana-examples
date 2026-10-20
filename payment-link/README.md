@@ -1,6 +1,6 @@
 # Link de pago con boleta automática
 
-Crea un cobro con [`@tupana-ai/sdk`](https://github.com/tupana-ai/tupana-node): Tupana te devuelve un `payment_url`, tu cliente paga (Webpay) y, al confirmarse el pago, Tupana **emite la boleta (39) o factura (33) sola** y deposita los fondos al destinatario.
+Crea un cobro con [`tupana`](https://github.com/tupana-ai/tupana-node): Tupana te devuelve un `payment_url`, tu cliente paga (Webpay) y, al confirmarse el pago, Tupana **emite la boleta (39) o factura (33) sola** y deposita los fondos al destinatario.
 
 - `external_id` es la llave de idempotencia: si repites la llamada con el mismo valor (por ejemplo el id de la reserva), obtienes el mismo cobro.
 - `--watch` consulta el estado hasta que se pague o venza. En producción escucha el webhook `payment_request.paid` (mira [`../webhook-express`](../webhook-express)).

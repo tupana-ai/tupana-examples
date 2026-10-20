@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { test } from "node:test";
-import Tupana from "@tupana-ai/sdk";
+import Tupana from "tupana";
 import { buildDocuments, idempotencyKey, issueAll, parseNumber, readCsv } from "./bulk.js";
 
 const docs = buildDocuments(readCsv(readFileSync(new URL("./invoices.csv", import.meta.url), "utf8")), "76543210-3");

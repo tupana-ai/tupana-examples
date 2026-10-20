@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { computeWebhookSignature } from "@tupana-ai/sdk";
+import { computeWebhookSignature } from "tupana";
 import { createApp } from "./app.js";
 
 const secret = "whsec_test";

@@ -1,6 +1,6 @@
 // Firma un evento de prueba igual que Tupana y lo envía a tu receptor local.
 import { randomUUID } from "node:crypto";
-import { computeWebhookSignature } from "@tupana-ai/sdk";
+import { computeWebhookSignature } from "tupana";
 
 const url = process.env.WEBHOOK_URL ?? "http://localhost:3000/webhooks/tupana";
 const secret = process.env.TUPANA_WEBHOOK_SECRET;

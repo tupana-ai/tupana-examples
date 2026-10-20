@@ -8,7 +8,7 @@
     "test": "node --test"
   },
   "dependencies": {
-    "@tupana-ai/sdk": "github:tupana-ai/tupana-node",
+    "tupana": "^0.1.0",
     "csv-parse": "^6.1.0"
   }
 }
