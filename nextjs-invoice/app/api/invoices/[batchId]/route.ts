@@ -1,4 +1,4 @@
-import { APIError } from "@tupana-ai/sdk";
+import { APIError } from "tupana";
 import { NextResponse } from "next/server";
 import { getTupana } from "@/lib/tupana";
 

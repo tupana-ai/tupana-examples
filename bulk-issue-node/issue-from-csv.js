@@ -7,7 +7,7 @@
 //   node issue-from-csv.js invoices.csv --issuer-rut 76543210-3 --emit   # emite
 import { readFileSync, writeFileSync } from "node:fs";
 import { parseArgs } from "node:util";
-import Tupana, { APIError } from "@tupana-ai/sdk";
+import Tupana, { APIError } from "tupana";
 import { buildDocuments, clp, issueAll, readCsv } from "./bulk.js";
 
 const { values, positionals } = parseArgs({

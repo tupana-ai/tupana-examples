@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import Tupana from "@tupana-ai/sdk";
+import Tupana from "tupana";
 import { createPaymentLink, waitForPayment } from "./payment-link.js";
 
 test("crea el cobro con monto calculado y espera el pago", async () => {

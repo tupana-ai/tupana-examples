@@ -1,6 +1,6 @@
 # Next.js: emitir una factura desde una ruta de API
 
-App Router con tres rutas de servidor que usan [`@tupana-ai/sdk`](https://github.com/tupana-ai/tupana-node):
+App Router con tres rutas de servidor que usan [`tupana`](https://github.com/tupana-ai/tupana-node):
 
 | Ruta | Qué hace |
 | --- | --- |

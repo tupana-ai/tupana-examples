@@ -1,5 +1,5 @@
 import express from "express";
-import { constructWebhookEvent, WebhookVerificationError } from "@tupana-ai/sdk";
+import { constructWebhookEvent, WebhookVerificationError } from "tupana";
 
 /**
  * Receptor de webhooks de Tupana.

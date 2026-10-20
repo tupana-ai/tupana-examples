@@ -1,6 +1,6 @@
 # Emisión masiva desde CSV (Node.js)
 
-Lee un CSV donde cada fila es una línea de detalle, agrupa por `ref` (un documento por `ref`), y emite en lotes de hasta 200 documentos con [`@tupana-ai/sdk`](https://github.com/tupana-ai/tupana-node).
+Lee un CSV donde cada fila es una línea de detalle, agrupa por `ref` (un documento por `ref`), y emite en lotes de hasta 200 documentos con [`tupana`](https://github.com/tupana-ai/tupana-node).
 
 - **Modo prueba por defecto:** sin `--emit` solo valida el archivo y muestra el resumen; no llama a la API.
 - **Seguro de reintentar:** cada lote viaja con un `Idempotency-Key` derivado de su contenido. Si el script se corta y lo vuelves a correr con el mismo archivo, Tupana devuelve el lote original en vez de emitir de nuevo.

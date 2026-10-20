@@ -1,5 +1,5 @@
 import "server-only";
-import Tupana from "@tupana-ai/sdk";
+import Tupana from "tupana";
 
 let client: Tupana | undefined;
 

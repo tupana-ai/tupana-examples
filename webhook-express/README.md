@@ -3,7 +3,7 @@
 Recibe las notificaciones de Tupana (`document.issued`, `document.rejected`, `payment_request.paid`…) de forma segura:
 
 1. Lee el cuerpo **crudo** con `express.raw` (si lo parseas antes, la firma no calza).
-2. Verifica `X-Pana-Signature`, el HMAC SHA-256 en hex del cuerpo con tu `secret`, con `constructWebhookEvent` de [`@tupana-ai/sdk`](https://github.com/tupana-ai/tupana-node).
+2. Verifica `X-Pana-Signature`, el HMAC SHA-256 en hex del cuerpo con tu `secret`, con `constructWebhookEvent` de [`tupana`](https://github.com/tupana-ai/tupana-node).
 3. Descarta entregas repetidas por `X-Pana-Event-Id` (la firma no incluye timestamp; la deduplicación es tu protección contra reenvíos).
 4. Responde `2xx` rápido; si el trabajo es pesado, encólalo.
 
