@@ -1,0 +1,13 @@
+{
+  "name": "tupana-example-payment-link",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "create": "node create-payment-link.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@tupana-ai/sdk": "github:tupana-ai/tupana-node"
+  }
+}

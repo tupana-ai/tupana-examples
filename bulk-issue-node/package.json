@@ -1,0 +1,14 @@
+{
+  "name": "tupana-example-bulk-issue-node",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "issue": "node issue-from-csv.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@tupana-ai/sdk": "github:tupana-ai/tupana-node",
+    "csv-parse": "^6.1.0"
+  }
+}

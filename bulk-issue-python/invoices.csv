@@ -1,0 +1,5 @@
+ref,dte_type,receiver_rut,item_name,quantity,unit_price,item_description,due_date
+PED-1001,33,76123456-0,Plan Pro mensual,1,49990,Octubre 2026,2026-11-30
+PED-1001,33,76123456-0,Usuarios adicionales,3,5990,,2026-11-30
+PED-1002,33,77654321-7,Implementación,1,350000,Proyecto onboarding,
+PED-1003,34,96789012-K,Capacitación (exenta),2,80000,,

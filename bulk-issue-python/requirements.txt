@@ -1,0 +1,2 @@
+tupana @ git+https://github.com/tupana-ai/tupana-python
+openpyxl>=3.1

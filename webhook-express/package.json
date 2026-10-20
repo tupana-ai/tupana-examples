@@ -1,0 +1,15 @@
+{
+  "name": "tupana-example-webhook-express",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "send-test-event": "node send-test-event.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@tupana-ai/sdk": "github:tupana-ai/tupana-node",
+    "express": "^5.1.0"
+  }
+}
