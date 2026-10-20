@@ -15,9 +15,10 @@ import json
 import os
 from typing import Any
 
-from agent import SYSTEM_PROMPT
 from agents import Agent, Runner
 from agents.mcp import MCPServerStreamableHttp
+
+from agent import SYSTEM_PROMPT
 from confirmation import DECLINED_MESSAGE, ask_human, needs_confirmation
 from tupana_mcp_auth import MCP_URL, build_oauth
 

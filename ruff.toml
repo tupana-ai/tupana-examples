@@ -4,3 +4,7 @@ target-version = "py310"
 [lint]
 select = ["E", "F", "W", "I", "B", "UP"]
 ignore = ["E402"]
+
+[lint.isort]
+known-first-party = ["agent", "confirmation", "tupana_mcp_auth", "openai_agent", "main", "issue_from_file"]
+known-third-party = ["tupana", "mcp", "agents", "anthropic", "httpx2"]

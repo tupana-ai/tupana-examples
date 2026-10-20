@@ -12,8 +12,9 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-import tupana_mcp_auth  # noqa: E402
 from mcp.shared.auth import OAuthToken  # noqa: E402
+
+import tupana_mcp_auth  # noqa: E402
 
 
 @pytest.mark.anyio

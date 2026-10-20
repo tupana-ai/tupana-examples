@@ -20,9 +20,10 @@ from typing import Any
 
 import anthropic
 import httpx2
-from confirmation import DECLINED_MESSAGE, ask_human, needs_confirmation
 from mcp import Client
 from mcp.client.streamable_http import streamable_http_client
+
+from confirmation import DECLINED_MESSAGE, ask_human, needs_confirmation
 from tupana_mcp_auth import MCP_URL, build_oauth
 
 MODEL = os.environ.get("TUPANA_AGENT_MODEL", "claude-sonnet-5-5")
